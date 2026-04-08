@@ -26,7 +26,9 @@ Minimize total shipping cost across the network.
 - CBC solver
 
 ## Results
+- total minimum cost: `$200,863.75`
 - solver status: `Optimal`
+- CVG was fully utilized at `95,650` tons, while AFW carried `38,097` of `44,350` available tons
 - all copied verification outputs in the notebook show hub, focus-city, demand, and flow-balance constraints satisfied
 
 ## Included Files
