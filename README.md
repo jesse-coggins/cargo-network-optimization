@@ -42,4 +42,4 @@ Minimize total shipping cost across the network.
 ![Optimization report visual 2](assets/report-extracts/report_image_02.png)
 
 ## Note
-The publish-only staging copy keeps the notebook and leaves the original report documents out of this GitHub set.
+The notebook contains the full LP formulation, constraint definitions, solver call, and constraint verification logic. The results listed above — `$200,863.75` optimal cost, CVG fully utilized, AFW at 38,097 of 44,350 tons — were produced by running the model against the complete WGU coursework dataset. The raw dataset is not included in this repository; the notebook is published to demonstrate the formulation and methodology rather than as a fully self-contained runnable script.
