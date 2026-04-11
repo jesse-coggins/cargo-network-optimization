@@ -4,7 +4,7 @@
 This project formulates and solves a linear programming model for a cargo shipping network. The objective is to minimize total shipping cost while routing freight from hub airports through focus cities to downstream demand centers under capacity, demand, and flow-balance constraints.
 
 ## Coursework Context
-This repository packages work originally completed as part of Western Governors University's (WGU) M.S. in Data Analytics program and reorganizes it into a public portfolio format. Screenshots extracted from the original written submission are preserved in `assets/report-extracts/`.
+This project was completed as part of my M.S. in Data Analytics program at Western Governors University (WGU). Screenshots from the original written submission are preserved in `assets/report-extracts/`.
 
 ## Business Problem
 How should cargo be routed across a multi-node network so that all destination demand is satisfied at minimum cost without exceeding hub or focus-city capacity?
@@ -43,3 +43,7 @@ Minimize total shipping cost across the network.
 
 ## Note
 The notebook contains the full LP formulation, constraint definitions, solver call, and constraint verification logic. The results listed above — `$200,863.75` optimal cost, CVG fully utilized, AFW at 38,097 of 44,350 tons — were produced by running the model against the complete WGU coursework dataset. The raw dataset is not included in this repository; the notebook is published to demonstrate the formulation and methodology rather than as a fully self-contained runnable script.
+
+---
+
+*\* I used Claude (Anthropic) to help organize and stage this coursework into a GitHub portfolio repository. The analysis, code, and results are entirely my own.*
