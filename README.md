@@ -29,7 +29,7 @@ Minimize total shipping cost across the network.
 - total minimum cost: `$200,863.75`
 - solver status: `Optimal`
 - CVG was fully utilized at `95,650` tons, while AFW carried `38,097` of `44,350` available tons
-- all copied verification outputs in the notebook show hub, focus-city, demand, and flow-balance constraints satisfied
+- all saved verification outputs in the notebook show hub, focus-city, demand, and flow-balance constraints satisfied
 
 ## Included Files
 - `notebooks/optimization.ipynb`
@@ -42,4 +42,4 @@ Minimize total shipping cost across the network.
 ![Optimization report visual 2](assets/report-extracts/report_image_02.png)
 
 ## Note
-The notebook contains the full LP formulation, constraint definitions, solver call, and constraint verification logic. The results listed above — `$200,863.75` optimal cost, CVG fully utilized, AFW at 38,097 of 44,350 tons — were produced by running the model against the complete WGU coursework dataset. The raw dataset is not included in this repository; the notebook is published to demonstrate the formulation and methodology rather than as a fully self-contained runnable script.
+The notebook contains the full LP formulation, embedded demand and lane-cost tables from the original coursework notebook, the solver call, and constraint verification logic. It can be rerun end-to-end to reproduce the `$200,863.75` optimal cost, CVG full utilization, and AFW usage of `38,097` out of `44,350` tons.
